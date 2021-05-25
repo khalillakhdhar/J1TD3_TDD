@@ -31,6 +31,19 @@ public class VerifTesting {
 		
 		
 	}
+	@Test
+	public void conges()
+	{
+		assertFalse(emplo.verifconge(33));
+	}
+	@Test
+	public void testpr()
+	{
+		assertTrue(emplo.verifprime(20));
+		
+		
+	}
+	
 	
 	
 }
