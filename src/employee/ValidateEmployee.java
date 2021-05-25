@@ -8,4 +8,13 @@ public class ValidateEmployee {
 		
 		
 	}
+	public boolean verifPH(int prix)
+	{
+		//return prix>10;
+		if(prix>=10)
+			return true;
+		else 
+			return false;
+		
+	}
 }
