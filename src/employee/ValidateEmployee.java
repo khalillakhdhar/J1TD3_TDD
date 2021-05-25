@@ -32,4 +32,15 @@ public class ValidateEmployee {
 	{
 		return prime>100;
 	}
+	public boolean contenu(String decision)
+	{
+		
+		if(decision.contains("refus")==true)
+			return true;
+		else if(decision.contains("acceptation"))
+			return true;
+		else
+			return false;
+		
+	}
 }
