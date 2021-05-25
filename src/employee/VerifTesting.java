@@ -39,11 +39,17 @@ public class VerifTesting {
 	@Test
 	public void testpr()
 	{
-		assertTrue(emplo.verifprime(20));
+		assertTrue(emplo.verifprime(200));
 		
 		
 	}
-	
+	@Test
+	public void prisedecision()
+	{
+		assertTrue(emplo.contenu("refus de congé pour x"));
+		
+		
+	}
 	
 	
 }
