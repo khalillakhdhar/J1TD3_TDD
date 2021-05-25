@@ -17,4 +17,11 @@ public class ValidateEmployee {
 			return false;
 		
 	}
+	public boolean verifconge(int nbj)
+	{
+		return nbj<30;
+		
+		
+		
+	}
 }
