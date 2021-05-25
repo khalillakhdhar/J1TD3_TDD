@@ -21,7 +21,15 @@ public class ValidateEmployee {
 	{
 		return nbj<30;
 		
+		}
+	public double detectprime(String prime)
+	{
+		return Double.parseDouble(prime);
 		
 		
+	}
+	public boolean verifprime(double prime)
+	{
+		return prime>100;
 	}
 }
