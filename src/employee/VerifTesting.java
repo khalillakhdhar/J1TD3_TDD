@@ -1,6 +1,9 @@
 package employee;
 
+import static org.junit.Assert.assertFalse;
+
 import org.junit.Before;
+import org.junit.Test;
 
 public class VerifTesting {
 
@@ -13,7 +16,12 @@ public class VerifTesting {
 		
 	}
 	
-	
+	@Test
+	public void verifintervalle()
+	{
+		assertFalse(emplo.horaire(12));
+		
+	}
 	
 	
 }
